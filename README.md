@@ -10,3 +10,8 @@ Add Orders.
 2. Modify paths in<b>DatabaseScript.sql</b> and execute script in MSSQL.
 3. Navigate to <b>Web.config</b> and change <b>MySql connection string</b> to match your own.
 4. Compile & Run.
+
+
+App access:
+- login: admin
+- password: admin 
