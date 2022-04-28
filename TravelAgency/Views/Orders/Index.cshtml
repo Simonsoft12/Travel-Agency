@@ -1,0 +1,99 @@
+﻿@model IEnumerable<TravelAgency.Models.FullOrder>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Add Order", "AddOrder")
+</p>
+
+<p>
+    <center>
+        @using (Html.BeginForm("Index", "Orders", FormMethod.Get))
+        {
+            <b>Search By :</b>
+            @Html.RadioButton("searchBy", "ID", true) <text>ID</text>
+            @Html.RadioButton("searchBy", "FirstName") <text>First Name</text>
+            @Html.RadioButton("searchBy", "LastName") <text>Last Name</text>
+            @Html.RadioButton("searchBy", "Destination") <text>Destination</text>
+            @Html.RadioButton("searchBy", "DestinationAddress") <text>Destination Address</text>
+            @Html.RadioButton("searchBy", "Price") <text>Price</text>
+            <br />
+            @Html.TextBox("search")
+            <input type="submit" , value="Search" />
+        }
+    </center>
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Order ID", "Index", new { sortOrder = 1 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("First Name", "Index", new { sortOrder = 2 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Last Name", "Index", new { sortOrder = 3 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Destination", "Index", new { sortOrder = 41 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Destination Address", "Index", new { sortOrder = 5 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Order From", "Index", new { sortOrder = 6 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Order To", "Index", new { sortOrder = 7 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Price (PLN)", "Index", new { sortOrder = 8 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Order Date", "Index", new { sortOrder = 9 }, new { style = "text-decoration:none;" })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.order_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.client_fname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.client_lname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dest_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dest_address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.order_from)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.order_to)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.order_date)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new {  id=item.order_id  })
+        </td>
+    </tr>
+}
+
+</table>

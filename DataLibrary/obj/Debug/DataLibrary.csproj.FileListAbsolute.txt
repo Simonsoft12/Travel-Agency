@@ -1,0 +1,34 @@
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Security.Permissions.dll
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Security.Permissions.xml
+C:\Users\Simon\source\repos\DataLibrary\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Simon\source\repos\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Simon\source\repos\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Simon\source\repos\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Simon\source\repos\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Simon\source\repos\DataLibrary\obj\Debug\DataLibrary.pdb
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Security.Permissions.dll
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Security.Permissions.xml
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\obj\Debug\DataLibrary.csproj.AssemblyReference.cache
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Simon\Downloads\Studia\.NET Project\.Net Travel Agency\DataLibrary\obj\Debug\DataLibrary.pdb

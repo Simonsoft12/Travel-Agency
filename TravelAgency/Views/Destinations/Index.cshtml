@@ -1,0 +1,68 @@
+﻿@model IEnumerable<TravelAgency.Models.Destination>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Add Destination", "AddDestination")
+</p>
+
+<p>
+    <center>
+        @using (Html.BeginForm("Index", "Destinations", FormMethod.Get))
+        {
+            <b>Search By :</b>
+            @Html.RadioButton("searchBy", "ID", true) <text>ID</text>
+            @Html.RadioButton("searchBy", "Destination") <text>Destination</text>
+            @Html.RadioButton("searchBy", "Phone") <text>Phone</text>
+            @Html.RadioButton("searchBy", "Address") <text>Address</text>
+            <br />
+            @Html.TextBox("search")
+            <input type="submit" , value="Search" />
+        }
+    </center>
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Destination ID", "Index", new { sortOrder = 1 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Destination", "Index", new { sortOrder = 2 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Destination Phone", "Index", new { sortOrder = 3 }, new { style = "text-decoration:none;" })
+        </th>
+        <th>
+            @Html.ActionLink("Destination Address", "Index", new { sortOrder = 4 }, new { style = "text-decoration:none;" })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.dest_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dest_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dest_phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dest_address)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  id=item.dest_id }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.dest_id })
+        </td>
+    </tr>
+}
+
+</table>
