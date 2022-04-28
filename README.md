@@ -1,4 +1,4 @@
-<b>Travel Agency</b> application - .Net 4.7.2 Core MVC, Dapper, MSSQL</b>
+<b>Travel Agency</b> application - .Net 4.7.2 Core MVC, Dapper, MSSQL.</b>
 
 Add Clients.<br/>
 Add Destinations.<br/>
